@@ -153,9 +153,6 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#imaginationalEntertainment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#intelectualEntertainment"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#kids"/>
     </Declaration>
     <Declaration>
@@ -1354,10 +1351,6 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#intelectualEntertainment"/>
-        <Class IRI="#experience"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#kids"/>
         <Class IRI="#social"/>
     </SubClassOf>
@@ -1379,7 +1372,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#musicalEntertainment"/>
-        <Class IRI="#intelectualEntertainment"/>
+        <Class IRI="#experience"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#northernAfrica"/>
