@@ -102,9 +102,6 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#america"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#artistic"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#asia"/>
     </Declaration>
     <Declaration>
@@ -1286,7 +1283,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#actionReach"/>
-        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#africa"/>
@@ -1295,10 +1292,6 @@ Cojocaru Stefan-George</Literal>
     <SubClassOf>
         <Class IRI="#america"/>
         <Class IRI="#territory"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#artistic"/>
-        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#asia"/>
@@ -1338,7 +1331,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#entertainingInformation"/>
-        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#europe"/>
@@ -1346,7 +1339,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#experience"/>
-        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#fun"/>
@@ -1358,7 +1351,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#imaginationalEntertainment"/>
-        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#intelectualEntertainment"/>
@@ -1414,7 +1407,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sensible"/>
-        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sensibleThrilling"/>
@@ -1422,7 +1415,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#socialActive"/>
-        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#southAmerica"/>
