@@ -204,7 +204,7 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#sensibleThrilling"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#socialActive"/>
+        <Class IRI="#social"/>
     </Declaration>
     <Declaration>
         <Class IRI="#southAmerica"/>
@@ -1343,7 +1343,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#fun"/>
-        <Class IRI="#socialActive"/>
+        <Class IRI="#social"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#heavySensible"/>
@@ -1359,7 +1359,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#kids"/>
-        <Class IRI="#socialActive"/>
+        <Class IRI="#social"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#latinAmerica"/>
@@ -1414,7 +1414,7 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#thrilling"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#socialActive"/>
+        <Class IRI="#social"/>
         <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
