@@ -93,7 +93,7 @@ Cojocaru Stefan-George</Literal>
         <Class abbreviatedIRI="www:movie"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#actionReach"/>
+        <Class IRI="#action"/>
     </Declaration>
     <Declaration>
         <Class IRI="#africa"/>
@@ -132,13 +132,10 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#easternEurope"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#entertainingInformation"/>
+        <Class IRI="#entertainment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#europe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#experience"/>
     </Declaration>
     <Declaration>
         <Class IRI="#fun"/>
@@ -148,9 +145,6 @@ Cojocaru Stefan-George</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#heavySensible"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#imaginationalEntertainment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#kids"/>
@@ -1279,7 +1273,7 @@ Cojocaru Stefan-George</Literal>
         </DataMaxCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#actionReach"/>
+        <Class IRI="#action"/>
         <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
@@ -1296,7 +1290,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#bruteAction"/>
-        <Class IRI="#actionReach"/>
+        <Class IRI="#action"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#caribbean"/>
@@ -1327,16 +1321,12 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#europe"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#entertainingInformation"/>
+        <Class IRI="#entertainment"/>
         <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#europe"/>
         <Class IRI="#territory"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#experience"/>
-        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#fun"/>
@@ -1345,10 +1335,6 @@ Cojocaru Stefan-George</Literal>
     <SubClassOf>
         <Class IRI="#heavySensible"/>
         <Class IRI="#sensible"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#imaginationalEntertainment"/>
-        <Class IRI="#genre"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#kids"/>
@@ -1372,7 +1358,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#musicalEntertainment"/>
-        <Class IRI="#experience"/>
+        <Class IRI="#entertainment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#northernAfrica"/>
@@ -1388,7 +1374,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#oldAction"/>
-        <Class IRI="#actionReach"/>
+        <Class IRI="#action"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#producer"/>
@@ -1396,7 +1382,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sciFiAndFantasy"/>
-        <Class IRI="#imaginationalEntertainment"/>
+        <Class IRI="#entertainment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sensible"/>
@@ -1432,11 +1418,11 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#thrilling"/>
-        <Class IRI="#imaginationalEntertainment"/>
+        <Class IRI="#entertainment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#tvEntertainment"/>
-        <Class IRI="#experience"/>
+        <Class IRI="#entertainment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#westernAfrica"/>
@@ -3004,11 +2990,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#action"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#actionReach"/>
-        <NamedIndividual IRI="#adventure"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#imaginationalEntertainment"/>
+        <Class IRI="#action"/>
         <NamedIndividual IRI="#adventure"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3382,10 +3364,6 @@ Cojocaru Stefan-George</Literal>
     <ClassAssertion>
         <Class abbreviatedIRI="owl:Thing"/>
         <NamedIndividual IRI="#short"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#entertainingInformation"/>
-        <NamedIndividual IRI="#sport"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="owl:Thing"/>
