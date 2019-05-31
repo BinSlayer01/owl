@@ -1,0 +1,4613 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.proiectPWS2019.org/proiectPWS2019.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.proiectPWS2019.org/proiectPWS2019.owl">
+    <Prefix name="" IRI="http://www.proiectPWS2019.org/proiectPWS2019.owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="www" IRI="http://www.proiectPWS2019.org/"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="page" IRI="http://dbpedia.org/page/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="owl2xml" IRI="http://www.w3.org/2006/12/owl2-xml#"/>
+    <Prefix name="ontology" IRI="http://dbpedia.org/ontology/"/>
+    <Prefix name="proiectPWS2019" IRI="http://www.proiectPWS2019.org/proiectPWS2019.owl#"/>
+    <Prefix name="proiectPWS20192" IRI="http://www.proiectPWS2019.org/proiectPWS2019.owl#"/>
+    <Import>http://dbpedia.org/ontology/</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+        <Literal datatypeIRI="&xsd;string">Huluba Ramona-Elena
+Mihai Roberto-Adrian
+Stoica Mihai-Marian
+Cojocaru Stefan-George</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal datatypeIRI="&xsd;string">Master, Baze de date si tehnologii web, An I
+Pagini Web Semantice
+Coordonator stiintific: Conf.dr. Tataram Monica</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="&xsd;string">TG 13 Ontology of artistic movies</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Literal datatypeIRI="&xsd;string">15.06.2019</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="&xsd;string">Huluba Ramona-Elena
+Mihai Roberto-Adrian
+Stoica Mihai-Marian
+Cojocaru Stefan-George
+
+
+</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal datatypeIRI="&xsd;string">Huluba Ramona-Elena
+Mihai Roberto-Adrian
+Stoica Mihai-Marian
+Cojocaru Stefan-George</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="ontology:actor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ontology:country"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ontology:language"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ontology:musicalArtist"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ontology:person"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ontology:writer"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="page:filmDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="page:place"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="www:movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#actionReach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#america"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bruteAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caribbean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#centralAmerica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#centralAsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#colorInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easternAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easternAsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easternEurope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entertainingInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#europe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavySensible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#imaginationalEntertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intelectualEntertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#latinAmerica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#logicalThrilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#love"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#middleAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#musicalEntertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#northernAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#northernAmerica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#northernEurope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oldAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#producer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#productionCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sciFiAndFantasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensibleThrilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#socialActive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#southAmerica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#southEasternAsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#southernAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#southernAsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#southernEurope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#territory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thrilling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tvEntertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#westernAfrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#westernAsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#westernEurope"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDirector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaleActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProducer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTranslatedMovie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActorIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActressIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAwardOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAwardedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isColorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComposerIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDirectorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGenreOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nominatedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOfTerritory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produced"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#countryName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#imdbRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#releaseDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#runTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Afghanistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aland_Islands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Algeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andorra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anguilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Armenia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aruba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Austria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azerbaijan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bahrain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bangladesh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barbados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belarus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belgium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bhutan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bolivia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bosnia-Herzegovina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Botswana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brazil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulgaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cambodia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cameroon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cape_Verde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Central_African_Republic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colombia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comoros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Congo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Costa_Rica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Croatia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cyprus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Czech_Republic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Djibouti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ecuador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Egypt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#El_Salvador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Equatorial_Guinea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eritrea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethiopia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#French_Guiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gambia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Georgia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ghana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gibraltar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greenland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guatemala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guinea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guinea-Bassau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guyana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Honduras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hong_Kong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hungary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iceland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indonesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iraq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ireland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isle_of_Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Israel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ivory_Coast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamaica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jersey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jordan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kazakhstan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kenya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kuwait"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kyrgyzstan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Latvia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lebanon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lesotho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liberia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Libya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liechtenstein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lithuania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luxembourg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Madagascar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malawi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malaysia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maldives"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martinique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mauritania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mauritius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mayotte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moldova"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monaco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mongolia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montenegro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montserrat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morocco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mozambique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Myanmar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Namibia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nauru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nepal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netherlands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nicaragua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nigeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#North_Korea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Norway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pakistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palestine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paraguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Philippines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portugal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Puerto_Rico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Qatar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Republic_of_Macedonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reunion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RobertDowneyJr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Russia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RussiaAsia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rwanda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samoa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#San_Marino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sao_Tome_and_Principe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saudi_Arabia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ScarlettJohansson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senegal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serbia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serbia_and_Montenegro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seychelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sierra_Leone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singapore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slovakia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slovenia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Somalia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_Korea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sri_Lanka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sudan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suriname"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swaziland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Switzerland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Syria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taiwan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tajikistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tanzania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thailand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timor-Leste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Togo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tokelau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tunisia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turkey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turkmenistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uganda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ukraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uruguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uzbekistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venezuela"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vietnam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yemen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zambia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zimbabwe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alejandroGInarritu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amazon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#animation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#billyZane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blackAndWhite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blockbuster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bryceDessner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#burundi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#christopherNolan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cillianMurphy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#conradBuff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cristinMilioti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deborahLynnScott"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dileepRao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#documentary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dolbyDigital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#domhnallGleeson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ellenPage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emiliaClarke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#english"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#filmNoir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#forestGoodluck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#french"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gameShow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gloriaStuart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hansZimmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#history"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inception"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jacquelineWest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jamesCameron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jamesHorner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#japanese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jeffreyKurland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jonahHill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#josephGordonLevitt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kateWinslet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kenWatanabe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leeSmith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lukasHaas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manoloBlahnik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#margotRobbie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#marionCotillard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#markusBarmettler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#martinScorsese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matthewMcConaughey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meBeforeYou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#melawNakehko"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#michaelCaine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miscellaneousAward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mystery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#netflix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#news"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oscarAward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paramountPictures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paulAnderson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#petePostlethwaite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pg-13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#primetimeEmmyAward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#realityTV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#richardA.Harris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rottenTomatoes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sandyPowell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sciFi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#short"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stephenMirrione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#talkShow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#theRevenant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#theodoreShapiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thriller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#titanic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomBerenger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomHardy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#twentiethCenturyFox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#usaPassed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#war"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#western"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#willPoulter"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <Class abbreviatedIRI="ontology:person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="#presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <Class abbreviatedIRI="ontology:person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ontology:writer"/>
+        <Class abbreviatedIRI="ontology:person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class abbreviatedIRI="ontology:person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="www:movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsToGenre"/>
+            <Class IRI="#genre"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="www:movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActress"/>
+            <Class abbreviatedIRI="ontology:actor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="www:movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMaleActor"/>
+            <Class abbreviatedIRI="ontology:actor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="www:movie"/>
+        <DataMinCardinality cardinality="3">
+            <DataProperty IRI="#title"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="www:movie"/>
+        <DataMaxCardinality cardinality="200">
+            <DataProperty IRI="#runTime"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#actionReach"/>
+        <Class IRI="#artistic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#africa"/>
+        <Class IRI="#territory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#america"/>
+        <Class IRI="#territory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artistic"/>
+        <Class IRI="#genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asia"/>
+        <Class IRI="#territory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bruteAction"/>
+        <Class IRI="#actionReach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caribbean"/>
+        <Class IRI="#america"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#centralAmerica"/>
+        <Class IRI="#latinAmerica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#centralAsia"/>
+        <Class IRI="#asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#colorInfo"/>
+        <Class IRI="#presentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easternAfrica"/>
+        <Class IRI="#africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easternAsia"/>
+        <Class IRI="#asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easternEurope"/>
+        <Class IRI="#europe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#entertainingInformation"/>
+        <Class IRI="#artistic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#europe"/>
+        <Class IRI="#territory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#experience"/>
+        <Class IRI="#artistic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fun"/>
+        <Class IRI="#socialActive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavySensible"/>
+        <Class IRI="#sensible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#imaginationalEntertainment"/>
+        <Class IRI="#artistic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intelectualEntertainment"/>
+        <Class IRI="#experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kids"/>
+        <Class IRI="#socialActive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#latinAmerica"/>
+        <Class IRI="#america"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#logicalThrilling"/>
+        <Class IRI="#thrilling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#love"/>
+        <Class IRI="#sensible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#middleAfrica"/>
+        <Class IRI="#africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#musicalEntertainment"/>
+        <Class IRI="#intelectualEntertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#northernAfrica"/>
+        <Class IRI="#africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#northernAmerica"/>
+        <Class IRI="#america"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#northernEurope"/>
+        <Class IRI="#europe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oldAction"/>
+        <Class IRI="#actionReach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#producer"/>
+        <Class abbreviatedIRI="ontology:person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sciFiAndFantasy"/>
+        <Class IRI="#imaginationalEntertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensible"/>
+        <Class IRI="#artistic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensibleThrilling"/>
+        <Class IRI="#thrilling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#socialActive"/>
+        <Class IRI="#artistic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#southAmerica"/>
+        <Class IRI="#latinAmerica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#southEasternAsia"/>
+        <Class IRI="#asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#southernAfrica"/>
+        <Class IRI="#africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#southernAsia"/>
+        <Class IRI="#asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#southernEurope"/>
+        <Class IRI="#europe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thrilling"/>
+        <Class IRI="#imaginationalEntertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tvEntertainment"/>
+        <Class IRI="#experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#westernAfrica"/>
+        <Class IRI="#africa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#westernAsia"/>
+        <Class IRI="#asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#westernEurope"/>
+        <Class IRI="#europe"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#caribbean"/>
+        <Class IRI="#latinAmerica"/>
+        <Class IRI="#northernAmerica"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#centralAmerica"/>
+        <Class IRI="#southAmerica"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#centralAsia"/>
+        <Class IRI="#easternAsia"/>
+        <Class IRI="#southEasternAsia"/>
+        <Class IRI="#southernAsia"/>
+        <Class IRI="#westernAsia"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#easternAfrica"/>
+        <Class IRI="#middleAfrica"/>
+        <Class IRI="#northernAfrica"/>
+        <Class IRI="#southernAfrica"/>
+        <Class IRI="#westernAfrica"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#easternEurope"/>
+        <Class IRI="#northernEurope"/>
+        <Class IRI="#southernEurope"/>
+        <Class IRI="#westernEurope"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Afghanistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Afghanistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Aland_Islands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Aland_Islands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Albania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Albania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAfrica"/>
+        <NamedIndividual IRI="#Algeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Algeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Andorra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Andorra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Angola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Angola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Anguilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Anguilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Argentina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Argentina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Armenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Armenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Aruba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Aruba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Austria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Austria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Azerbaijan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Azerbaijan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Bahrain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Bahrain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Bangladesh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Bangladesh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Barbados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Barbados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Belarus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Belarus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Belgium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Belgium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Belize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Belize"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Benin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Benin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Bhutan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Bhutan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Bolivia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Bolivia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Bosnia-Herzegovina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Bosnia-Herzegovina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAfrica"/>
+        <NamedIndividual IRI="#Botswana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Botswana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Brazil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Brazil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Bulgaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Bulgaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Burkina_Faso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Burkina_Faso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Burma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Burma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Cambodia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Cambodia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Cameroon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Cameroon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAmerica"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Cape_Verde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Cape_Verde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Central_African_Republic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Central_African_Republic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Chad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Chad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Chile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Chile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Colombia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Colombia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Comoros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Comoros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Congo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Congo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Costa_Rica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Costa_Rica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Croatia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Croatia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Cyprus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Cyprus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Czech_Republic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Czech_Republic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Djibouti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Djibouti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Ecuador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Ecuador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAfrica"/>
+        <NamedIndividual IRI="#Egypt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Egypt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#El_Salvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#El_Salvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Equatorial_Guinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Equatorial_Guinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Eritrea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Eritrea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Estonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Estonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Ethiopia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Ethiopia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#French_Guiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#French_Guiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Gabon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Gabon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Gambia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Gambia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Georgia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Georgia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Ghana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Ghana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Gibraltar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Gibraltar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAmerica"/>
+        <NamedIndividual IRI="#Greenland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Greenland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Guatemala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Guatemala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Guinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Guinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Guinea-Bassau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Guinea-Bassau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Guyana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Guyana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Honduras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Honduras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#Hong_Kong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Hong_Kong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Hungary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Hungary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Iceland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Iceland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Iran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Iran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Iraq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Iraq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Ireland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Ireland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Isle_of_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Isle_of_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Israel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Israel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Ivory_Coast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Ivory_Coast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Jamaica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Jamaica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Jersey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Jersey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAsia"/>
+        <NamedIndividual IRI="#Kazakhstan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Kazakhstan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Kenya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Kenya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Kuwait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Kuwait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAsia"/>
+        <NamedIndividual IRI="#Kyrgyzstan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Kyrgyzstan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Laos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Laos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Latvia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Latvia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Lebanon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Lebanon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAfrica"/>
+        <NamedIndividual IRI="#Lesotho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Lesotho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Liberia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Liberia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAfrica"/>
+        <NamedIndividual IRI="#Libya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Libya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Liechtenstein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Liechtenstein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Lithuania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Lithuania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Luxembourg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Luxembourg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#Macao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Macao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Madagascar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Madagascar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Malawi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Malawi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Maldives"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Maldives"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Mali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Malta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Malta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Martinique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Martinique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Mauritania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mauritania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Mauritius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mauritius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Mayotte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mayotte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Moldova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Moldova"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Monaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Monaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#Mongolia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mongolia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Montenegro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Montenegro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Montserrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Montserrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAfrica"/>
+        <NamedIndividual IRI="#Morocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Morocco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Mozambique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Mozambique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Myanmar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Myanmar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAfrica"/>
+        <NamedIndividual IRI="#Namibia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Namibia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Nauru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Nepal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Nepal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Netherlands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Netherlands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Nicaragua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Nicaragua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Niger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Niger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Nigeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Nigeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#North_Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#North_Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Norway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Norway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Oman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Oman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Pakistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Pakistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Palestine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Palestine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAmerica"/>
+        <NamedIndividual IRI="#Panama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Panama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Paraguay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Paraguay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Peru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Peru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Philippines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Philippines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Poland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Portugal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Portugal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#caribbean"/>
+        <NamedIndividual IRI="#Puerto_Rico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Puerto_Rico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Qatar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Qatar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Republic_of_Macedonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Republic_of_Macedonia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Reunion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Reunion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#RobertDowneyJr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Romania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Romania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Russia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#asia"/>
+        <NamedIndividual IRI="#RussiaAsia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#RussiaAsia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Rwanda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Rwanda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Samoa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#San_Marino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#San_Marino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Sao_Tome_and_Principe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Sao_Tome_and_Principe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Saudi_Arabia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Saudi_Arabia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#ScarlettJohansson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Senegal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Senegal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Serbia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Serbia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Serbia_and_Montenegro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Serbia_and_Montenegro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Seychelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Seychelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Sierra_Leone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Sierra_Leone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Singapore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Singapore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Slovakia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Slovakia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Slovenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Slovenia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Somalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Somalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAfrica"/>
+        <NamedIndividual IRI="#South_Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#South_Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#South_Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#South_Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernEurope"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAsia"/>
+        <NamedIndividual IRI="#Sri_Lanka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Sri_Lanka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAfrica"/>
+        <NamedIndividual IRI="#Sudan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Sudan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Suriname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Suriname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southernAfrica"/>
+        <NamedIndividual IRI="#Swaziland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Swaziland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Sweden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernEurope"/>
+        <NamedIndividual IRI="#Switzerland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Switzerland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Syria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Syria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAsia"/>
+        <NamedIndividual IRI="#Taiwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Taiwan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAsia"/>
+        <NamedIndividual IRI="#Tajikistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Tajikistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Tanzania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Tanzania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Timor-Leste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Timor-Leste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAfrica"/>
+        <NamedIndividual IRI="#Togo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Togo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Tokelau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAfrica"/>
+        <NamedIndividual IRI="#Tunisia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Tunisia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Turkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Turkey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAsia"/>
+        <NamedIndividual IRI="#Turkmenistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Turkmenistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:country"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernAmerica"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Uganda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Uganda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternEurope"/>
+        <NamedIndividual IRI="#Ukraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Ukraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#northernEurope"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Uruguay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Uruguay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#centralAsia"/>
+        <NamedIndividual IRI="#Uzbekistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Uzbekistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southAmerica"/>
+        <NamedIndividual IRI="#Venezuela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Venezuela"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#southEasternAsia"/>
+        <NamedIndividual IRI="#Vietnam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Vietnam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#westernAsia"/>
+        <NamedIndividual IRI="#Yemen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Yemen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#middleAfrica"/>
+        <NamedIndividual IRI="#Zaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Zaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Zambia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Zambia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#Zimbabwe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Zimbabwe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bruteAction"/>
+        <NamedIndividual IRI="#action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actionReach"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#imaginationalEntertainment"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="page:filmDirector"/>
+        <NamedIndividual IRI="#alejandroGInarritu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fun"/>
+        <NamedIndividual IRI="#animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#award"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#billyZane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#biography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#colorInfo"/>
+        <NamedIndividual IRI="#blackAndWhite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#blackAndWhite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#blockbuster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#easternAfrica"/>
+        <NamedIndividual IRI="#burundi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#burundi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="page:filmDirector"/>
+        <NamedIndividual IRI="#christopherNolan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#cillianMurphy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#colorInfo"/>
+        <NamedIndividual IRI="#color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fun"/>
+        <NamedIndividual IRI="#comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#logicalThrilling"/>
+        <NamedIndividual IRI="#crime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#crime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#cristinMilioti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#dileepRao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#documentary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#domhnallGleeson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heavySensible"/>
+        <NamedIndividual IRI="#drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#ellenPage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#emiliaClarke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:language"/>
+        <NamedIndividual IRI="#english"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kids"/>
+        <NamedIndividual IRI="#family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sciFiAndFantasy"/>
+        <NamedIndividual IRI="#fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#heavySensible"/>
+        <NamedIndividual IRI="#filmNoir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#filmNoir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#forestGoodluck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:language"/>
+        <NamedIndividual IRI="#french"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tvEntertainment"/>
+        <NamedIndividual IRI="#gameShow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#gameShow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#award"/>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <NamedIndividual IRI="#hansZimmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#history"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#thrilling"/>
+        <NamedIndividual IRI="#horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#inception"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:writer"/>
+        <NamedIndividual IRI="#jamesCameron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="page:filmDirector"/>
+        <NamedIndividual IRI="#jamesCameron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#producer"/>
+        <NamedIndividual IRI="#jamesCameron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <NamedIndividual IRI="#jamesHorner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:language"/>
+        <NamedIndividual IRI="#japanese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#jonahHill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#josephGordonLevitt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#kateWinslet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#kenWatanabe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#lukasHaas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#margotRobbie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#marionCotillard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#producer"/>
+        <NamedIndividual IRI="#markusBarmettler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="page:filmDirector"/>
+        <NamedIndividual IRI="#martinScorsese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#matthewMcConaughey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#melawNakehko"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#michaelCaine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#award"/>
+        <NamedIndividual IRI="#miscellaneousAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#miscellaneousAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#musicalEntertainment"/>
+        <NamedIndividual IRI="#music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#musicalEntertainment"/>
+        <NamedIndividual IRI="#musical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#musical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sensibleThrilling"/>
+        <NamedIndividual IRI="#mystery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#mystery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#netflix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#news"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#award"/>
+        <NamedIndividual IRI="#oscarAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#oscarAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#productionCompany"/>
+        <NamedIndividual IRI="#paramountPictures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#paulAnderson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#petePostlethwaite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#award"/>
+        <NamedIndividual IRI="#primetimeEmmyAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#primetimeEmmyAward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tvEntertainment"/>
+        <NamedIndividual IRI="#realityTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#realityTV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#love"/>
+        <NamedIndividual IRI="#romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#rottenTomatoes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sciFiAndFantasy"/>
+        <NamedIndividual IRI="#sciFi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#sciFi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#short"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#short"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#entertainingInformation"/>
+        <NamedIndividual IRI="#sport"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#sport"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#talkShow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <NamedIndividual IRI="#theodoreShapiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sensibleThrilling"/>
+        <NamedIndividual IRI="#thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#tomBerenger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#tomHardy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#productionCompany"/>
+        <NamedIndividual IRI="#twentiethCenturyFox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#usaPassed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bruteAction"/>
+        <NamedIndividual IRI="#war"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#war"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#oldAction"/>
+        <NamedIndividual IRI="#western"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#western"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ontology:actor"/>
+        <NamedIndividual IRI="#willPoulter"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#amazon"/>
+        <NamedIndividual IRI="#blockbuster"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#amazon"/>
+        <NamedIndividual IRI="#netflix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#amazon"/>
+        <NamedIndividual IRI="#rottenTomatoes"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#blockbuster"/>
+        <NamedIndividual IRI="#netflix"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#blockbuster"/>
+        <NamedIndividual IRI="#rottenTomatoes"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#netflix"/>
+        <NamedIndividual IRI="#rottenTomatoes"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#Argentina"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#RobertDowneyJr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#Canada"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#Mexico"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#RobertDowneyJr"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <NamedIndividual IRI="#Romania"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#ScarlettJohansson"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#adventure"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#adventure"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#alejandroGInarritu"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#billyZane"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#christopherNolan"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isColorOf"/>
+        <NamedIndividual IRI="#color"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isColorOf"/>
+        <NamedIndividual IRI="#color"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isColorOf"/>
+        <NamedIndividual IRI="#color"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#comedy"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#crime"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#cristinMilioti"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#domhnallGleeson"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#drama"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#drama"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#drama"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#ellenPage"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#emiliaClarke"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#forestGoodluck"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTranslatedMovie"/>
+        <NamedIndividual IRI="#french"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposerIn"/>
+        <NamedIndividual IRI="#hansZimmer"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#history"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#sciFi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsCountry"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsCountry"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActress"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#marionCotillard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActress"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#ellenPage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#christopherNolan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#tomHardy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#petePostlethwaite"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#michaelCaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#kenWatanabe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#dileepRao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#cillianMurphy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#lukasHaas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#josephGordonLevitt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#tomBerenger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProducer"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#christopherNolan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#inception"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#jamesCameron"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposerIn"/>
+        <NamedIndividual IRI="#jamesHorner"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#jonahHill"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#josephGordonLevitt"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#kateWinslet"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#kenWatanabe"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#lukasHaas"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#margotRobbie"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#marionCotillard"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#martinScorsese"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#matthewMcConaughey"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <NamedIndividual IRI="#romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#melawNakehko"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#michaelCaine"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <NamedIndividual IRI="#oscarAward"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produced"/>
+        <NamedIndividual IRI="#paramountPictures"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#paulAnderson"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#petePostlethwaite"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#romance"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#history"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActress"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#melawNakehko"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#alejandroGInarritu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#Argentina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#forestGoodluck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#paulAnderson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#tomHardy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#domhnallGleeson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#willPoulter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProducer"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#markusBarmettler"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActress"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#margotRobbie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActress"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#cristinMilioti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#martinScorsese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#jonahHill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#matthewMcConaughey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#United_Kingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#Romania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#french"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#goldenGlobeAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#oscarAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposerIn"/>
+        <NamedIndividual IRI="#theodoreShapiro"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActress"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#kateWinslet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#jamesCameron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#billyZane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProducer"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#paramountPictures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProducer"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#twentiethCenturyFox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#titanic"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#tomBerenger"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#tomHardy"/>
+        <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#tomHardy"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produced"/>
+        <NamedIndividual IRI="#twentiethCenturyFox"/>
+        <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#willPoulter"/>
+        <NamedIndividual IRI="#theRevenant"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <Literal datatypeIRI="&xsd;double">8.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <Literal datatypeIRI="&xsd;date">04.2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#countryName"/>
+        <NamedIndividual IRI="#USA"/>
+        <Literal datatypeIRI="&xsd;string">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#inception"/>
+        <Literal datatypeIRI="&xsd;double">8.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#leondardoDiCaprio"/>
+        <Literal datatypeIRI="&xsd;string">Leonardo DiCaprio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <Literal datatypeIRI="&xsd;double">7.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <Literal datatypeIRI="&xsd;double">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <Literal datatypeIRI="&xsd;date">2016.01.08</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <Literal datatypeIRI="&xsd;integer">156</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <Literal datatypeIRI="&xsd;string">The Revenant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <Literal datatypeIRI="&xsd;double">8.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <Literal datatypeIRI="&xsd;date">25.12.2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <Literal datatypeIRI="&xsd;int">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <Literal datatypeIRI="&xsd;string">The wolf of Wallstreet
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#titanic"/>
+        <Literal datatypeIRI="&xsd;double">7.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#titanic"/>
+        <Literal datatypeIRI="&xsd;date">19.12.1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#titanic"/>
+        <Literal datatypeIRI="&xsd;int">194</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#titanic"/>
+        <Literal datatypeIRI="&xsd;string">Titanic</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActress"/>
+        <ObjectProperty IRI="#hasActor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <ObjectProperty IRI="#hasActor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isActorIn"/>
+        <ObjectProperty IRI="#isActorIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isActressIn"/>
+        <ObjectProperty IRI="#isActorIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <ObjectProperty IRI="#isActorIn"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <ObjectProperty IRI="#belongsToGenre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isActorIn"/>
+        <ObjectProperty IRI="#hasActor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isActressIn"/>
+        <ObjectProperty IRI="#hasActress"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasColor"/>
+        <ObjectProperty IRI="#isColorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDirector"/>
+        <ObjectProperty IRI="#isDirectorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+        <ObjectProperty IRI="#hasMaleActor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+        <ObjectProperty IRI="#hasTranslatedMovie"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <ObjectProperty IRI="#isAwardedWith"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#produced"/>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsCountry"/>
+        <Class IRI="#territory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActress"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProducer"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTranslatedMovie"/>
+        <Class abbreviatedIRI="ontology:language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isActorIn"/>
+        <Class abbreviatedIRI="ontology:actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <Class IRI="#award"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class IRI="#colorInfo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComposerIn"/>
+        <Class abbreviatedIRI="ontology:musicalArtist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <Class abbreviatedIRI="page:filmDirector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <Class abbreviatedIRI="page:place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <Class abbreviatedIRI="ontology:country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#partOfTerritory"/>
+        <Class abbreviatedIRI="ontology:country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produced"/>
+        <Class IRI="#productionCompany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <Class IRI="#genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsCountry"/>
+        <Class abbreviatedIRI="ontology:country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class abbreviatedIRI="ontology:actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasColor"/>
+        <Class IRI="#colorInfo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class abbreviatedIRI="page:filmDirector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <Class abbreviatedIRI="page:place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProducer"/>
+        <Class IRI="#producer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <Class abbreviatedIRI="ontology:country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTranslatedMovie"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isActorIn"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <Class IRI="#award"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isColorOf"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComposerIn"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class IRI="#productionCompany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isReleasingCountryOf"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+        <Class abbreviatedIRI="ontology:language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <Class IRI="#award"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#partOfTerritory"/>
+        <Class IRI="#territory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produced"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasActress"/>
+        <ObjectProperty IRI="#hasMaleActor"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#isActressIn"/>
+        <ObjectProperty IRI="#isMaleActorIn"/>
+    </DisjointObjectProperties>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#imdbRating"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#releaseDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#runTime"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#countryName"/>
+        <Class IRI="#territory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#imdbRating"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class abbreviatedIRI="ontology:actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#releaseDate"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#runTime"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class abbreviatedIRI="www:movie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#countryName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#imdbRating"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#releaseDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#runTime"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
