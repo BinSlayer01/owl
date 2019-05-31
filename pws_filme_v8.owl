@@ -942,9 +942,6 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#blockbuster"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#bryceDessner"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#burundi"/>
     </Declaration>
     <Declaration>
@@ -960,16 +957,10 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#comedy"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#conradBuff"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#crime"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#cristinMilioti"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#deborahLynnScott"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#dileepRao"/>
@@ -978,16 +969,10 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#documentary"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#dolbyDigital"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#domhnallGleeson"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#drama"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#dts"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ellenPage"/>
@@ -1017,9 +1002,6 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#gameShow"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#gloriaStuart"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#goldenGlobeAward"/>
     </Declaration>
     <Declaration>
@@ -1035,9 +1017,6 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#inception"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#jacquelineWest"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#jamesCameron"/>
     </Declaration>
     <Declaration>
@@ -1045,9 +1024,6 @@ Cojocaru Stefan-George</Literal>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#japanese"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#jeffreyKurland"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#jonahHill"/>
@@ -1062,16 +1038,10 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#kenWatanabe"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#leeSmith"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#leondardoDiCaprio"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#lukasHaas"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#manoloBlahnik"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#margotRobbie"/>
@@ -1128,25 +1098,16 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#petePostlethwaite"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#pg-13"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#primetimeEmmyAward"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#realityTV"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#richardA.Harris"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#romance"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rottenTomatoes"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#sandyPowell"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sciFi"/>
@@ -1156,9 +1117,6 @@ Cojocaru Stefan-George</Literal>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sport"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#stephenMirrione"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#talkShow"/>
@@ -1186,9 +1144,6 @@ Cojocaru Stefan-George</Literal>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#twentiethCenturyFox"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#usaPassed"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#war"/>
@@ -3410,10 +3365,6 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#twentiethCenturyFox"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="owl:Thing"/>
-        <NamedIndividual IRI="#usaPassed"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#bruteAction"/>
         <NamedIndividual IRI="#war"/>
     </ClassAssertion>
@@ -4314,8 +4265,8 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isDirectorOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isFilmLocationOf"/>
         <ObjectProperty IRI="#hasFilmLocation"/>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isMaleActorIn"/>
