@@ -3463,9 +3463,19 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#theRevenant"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#sciFi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMaleActor"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
         <NamedIndividual IRI="#RobertDowneyJr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isFilmLocationOf"/>
@@ -4171,6 +4181,16 @@ Cojocaru Stefan-George</Literal>
         <DataProperty IRI="#releaseDate"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
         <Literal datatypeIRI="&xsd;date">04.2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <Literal datatypeIRI="&xsd;int">130</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <Literal datatypeIRI="&xsd;string">Avengers Endgame</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#countryName"/>
