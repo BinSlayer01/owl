@@ -23,13 +23,10 @@
     <Prefix name="www" IRI="http://www.proiectPWS2019.org/"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="page" IRI="http://dbpedia.org/page/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="owl2xml" IRI="http://www.w3.org/2006/12/owl2-xml#"/>
-    <Prefix name="ontology" IRI="http://dbpedia.org/ontology/"/>
     <Prefix name="proiectPWS2019" IRI="http://www.proiectPWS2019.org/proiectPWS2019.owl#"/>
     <Prefix name="proiectPWS20192" IRI="http://www.proiectPWS2019.org/proiectPWS2019.owl#"/>
-    <Import>http://dbpedia.org/ontology/</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:publisher"/>
         <Literal datatypeIRI="&xsd;string">Huluba Ramona-Elena
@@ -69,28 +66,28 @@ Stoica Mihai-Marian
 Cojocaru Stefan-George</Literal>
     </Annotation>
     <Declaration>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="ontology:country"/>
+        <Class IRI="http://dbpedia.org/ontology/country"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <Class IRI="http://dbpedia.org/ontology/musicalArtist"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="ontology:person"/>
+        <Class IRI="http://dbpedia.org/ontology/person"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="ontology:writer"/>
+        <Class IRI="http://dbpedia.org/ontology/writer"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="page:place"/>
+        <Class IRI="http://dbpedia.org/page/place"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="www:movie"/>
@@ -1233,24 +1230,24 @@ Cojocaru Stefan-George</Literal>
         <Datatype abbreviatedIRI="xsd:date"/>
     </Declaration>
     <SubClassOf>
-        <Class abbreviatedIRI="ontology:actor"/>
-        <Class abbreviatedIRI="ontology:person"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
+        <Class IRI="http://dbpedia.org/ontology/person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
         <Class IRI="#presentation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="ontology:musicalArtist"/>
-        <Class abbreviatedIRI="ontology:person"/>
+        <Class IRI="http://dbpedia.org/ontology/musicalArtist"/>
+        <Class IRI="http://dbpedia.org/ontology/person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="ontology:writer"/>
-        <Class abbreviatedIRI="ontology:person"/>
+        <Class IRI="http://dbpedia.org/ontology/writer"/>
+        <Class IRI="http://dbpedia.org/ontology/person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="page:filmDirector"/>
-        <Class abbreviatedIRI="ontology:person"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
+        <Class IRI="http://dbpedia.org/ontology/person"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="www:movie"/>
@@ -1263,14 +1260,14 @@ Cojocaru Stefan-George</Literal>
         <Class abbreviatedIRI="www:movie"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasActress"/>
-            <Class abbreviatedIRI="ontology:actor"/>
+            <Class IRI="http://dbpedia.org/ontology/actor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="www:movie"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasMaleActor"/>
-            <Class abbreviatedIRI="ontology:actor"/>
+            <Class IRI="http://dbpedia.org/ontology/actor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1409,7 +1406,7 @@ Cojocaru Stefan-George</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#producer"/>
-        <Class abbreviatedIRI="ontology:person"/>
+        <Class IRI="http://dbpedia.org/ontology/person"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sciFiAndFantasy"/>
@@ -2609,7 +2606,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#Reunion"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#RobertDowneyJr"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2673,7 +2670,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#Saudi_Arabia"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#ScarlettJohansson"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2905,7 +2902,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#Turkmenistan"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:country"/>
+        <Class IRI="http://dbpedia.org/ontology/country"/>
         <NamedIndividual IRI="#USA"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3033,7 +3030,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#adventure"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
         <NamedIndividual IRI="#alejandroGInarritu"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3057,7 +3054,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#baftaFilmAward"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#billyZane"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3085,11 +3082,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#burundi"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
         <NamedIndividual IRI="#christopherNolan"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#cillianMurphy"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3117,11 +3114,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#crime"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#cristinMilioti"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#dileepRao"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3129,7 +3126,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#documentary"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#domhnallGleeson"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3141,15 +3138,15 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#drama"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#ellenPage"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#emiliaClarke"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
         <NamedIndividual IRI="#english"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3177,11 +3174,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#filmNoir"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#forestGoodluck"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
         <NamedIndividual IRI="#french"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3201,7 +3198,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#goldenGlobeAward"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <Class IRI="http://dbpedia.org/ontology/musicalArtist"/>
         <NamedIndividual IRI="#hansZimmer"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3221,11 +3218,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#inception"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:writer"/>
+        <Class IRI="http://dbpedia.org/ontology/writer"/>
         <NamedIndividual IRI="#jamesCameron"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
         <NamedIndividual IRI="#jamesCameron"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3233,43 +3230,43 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#jamesCameron"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <Class IRI="http://dbpedia.org/ontology/musicalArtist"/>
         <NamedIndividual IRI="#jamesHorner"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
         <NamedIndividual IRI="#japanese"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#jonahHill"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#josephGordonLevitt"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#kateWinslet"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#kenWatanabe"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#leondardoDiCaprio"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#lukasHaas"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#margotRobbie"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#marionCotillard"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3277,11 +3274,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#markusBarmettler"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
         <NamedIndividual IRI="#martinScorsese"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#matthewMcConaughey"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3289,11 +3286,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#meBeforeYou"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#melawNakehko"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#michaelCaine"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3349,11 +3346,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#paramountPictures"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#paulAnderson"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#petePostlethwaite"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3421,7 +3418,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#theWolfOfWallstreet"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <Class IRI="http://dbpedia.org/ontology/musicalArtist"/>
         <NamedIndividual IRI="#theodoreShapiro"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3437,11 +3434,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#titanic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#tomBerenger"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#tomHardy"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3469,7 +3466,7 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#western"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#willPoulter"/>
     </ClassAssertion>
     <DifferentIndividuals>
@@ -4333,8 +4330,8 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isDirectorOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#hasFilmLocation"/>
         <ObjectProperty IRI="#isFilmLocationOf"/>
+        <ObjectProperty IRI="#hasFilmLocation"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isMaleActorIn"/>
@@ -4398,11 +4395,11 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTranslatedMovie"/>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isActorIn"/>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isAwardOf"/>
@@ -4418,15 +4415,15 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isComposerIn"/>
-        <Class abbreviatedIRI="ontology:musicalArtist"/>
+        <Class IRI="http://dbpedia.org/ontology/musicalArtist"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isDirectorOf"/>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isFilmLocationOf"/>
-        <Class abbreviatedIRI="page:place"/>
+        <Class IRI="http://dbpedia.org/page/place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isProducedBy"/>
@@ -4434,7 +4431,7 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isReleasingCountryOf"/>
-        <Class abbreviatedIRI="ontology:country"/>
+        <Class IRI="http://dbpedia.org/ontology/country"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isTranslatedTo"/>
@@ -4446,7 +4443,7 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#partOfTerritory"/>
-        <Class abbreviatedIRI="ontology:country"/>
+        <Class IRI="http://dbpedia.org/ontology/country"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#produced"/>
@@ -4458,11 +4455,11 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsCountry"/>
-        <Class abbreviatedIRI="ontology:country"/>
+        <Class IRI="http://dbpedia.org/ontology/country"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasActor"/>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasColor"/>
@@ -4470,11 +4467,11 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDirector"/>
-        <Class abbreviatedIRI="page:filmDirector"/>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasFilmLocation"/>
-        <Class abbreviatedIRI="page:place"/>
+        <Class IRI="http://dbpedia.org/page/place"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasProducer"/>
@@ -4482,7 +4479,7 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasReleasingCountry"/>
-        <Class abbreviatedIRI="ontology:country"/>
+        <Class IRI="http://dbpedia.org/ontology/country"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTranslatedMovie"/>
@@ -4526,7 +4523,7 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isTranslatedTo"/>
-        <Class abbreviatedIRI="ontology:language"/>
+        <Class IRI="http://dbpedia.org/ontology/language"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#nominatedFor"/>
@@ -4567,7 +4564,7 @@ Cojocaru Stefan-George</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#name"/>
-        <Class abbreviatedIRI="ontology:actor"/>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#releaseDate"/>
