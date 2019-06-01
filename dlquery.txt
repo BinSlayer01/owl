@@ -1,0 +1,31 @@
+====Filme===
+AvengersEndgame
+inception
+meBeforeYou
+theRevenant
+theWolfOfWallstreet
+titanic
+
+movie and (imdbRating some double[ >=1.0, <=9.5 ])     //cateva variatiuni aici, 5-6
+
+movie and (hasActor value emiliaClarke)
+movie and (hasActress value emiliaClarke)   //pentru a exemplifica si ierarhica proprietatilor de obiect => ar trebui sa dea acelasi rezultat
+movie and (hasDirector value martinScorsese)
+movie and (isAwardedWith value baftaFilmAward)
+
+movie and (hasColor value color) and (hasFilmLocation value USA)
+
+movie and (hasColor value color) and (isTranslatedTo value japanese)
+
+movie and (hasFilmLocation value USA) and (isProducedBy value twentiethCenturyFox)
+
+actor and (isActorIn value titanic)
+actor and (isActorIn value meBeforeYou)  //cateva variatiuni aici de alte filme cu isActorIn
+
+filmDirector and (isDirectorOf value theWolfOfWallstreet) 
+
+genre and (isGenreOf value AvengersEndgame)
+
+actor and (name value "Leonardo DiCaprio")
+
+//mai adaugati cateva

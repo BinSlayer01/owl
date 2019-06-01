@@ -333,9 +333,6 @@ Cojocaru Stefan-George</Literal>
         <DataProperty IRI="#title"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Adult"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Afghanistan"/>
     </Declaration>
     <Declaration>
@@ -1420,10 +1417,6 @@ Cojocaru Stefan-George</Literal>
         <Class IRI="#southernEurope"/>
         <Class IRI="#westernEurope"/>
     </DisjointClasses>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:Thing"/>
-        <NamedIndividual IRI="#Adult"/>
-    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#southernAsia"/>
         <NamedIndividual IRI="#Afghanistan"/>
@@ -3416,6 +3409,11 @@ Cojocaru Stefan-George</Literal>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongsToGenre"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
         <NamedIndividual IRI="#sciFi"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -3954,6 +3952,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#markusBarmettler"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+        <NamedIndividual IRI="#theRevenant"/>
+        <NamedIndividual IRI="#japanese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongsToGenre"/>
         <NamedIndividual IRI="#theWolfOfWallstreet"/>
         <NamedIndividual IRI="#drama"/>
@@ -4166,7 +4169,7 @@ Cojocaru Stefan-George</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#imdbRating"/>
         <NamedIndividual IRI="#inception"/>
-        <Literal datatypeIRI="&xsd;double">8.8</Literal>
+        <Literal datatypeIRI="&xsd;double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
@@ -4181,7 +4184,7 @@ Cojocaru Stefan-George</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#imdbRating"/>
         <NamedIndividual IRI="#theRevenant"/>
-        <Literal datatypeIRI="&xsd;double">8.0</Literal>
+        <Literal datatypeIRI="&xsd;double">3.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#releaseDate"/>
@@ -4201,7 +4204,7 @@ Cojocaru Stefan-George</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#imdbRating"/>
         <NamedIndividual IRI="#theWolfOfWallstreet"/>
-        <Literal datatypeIRI="&xsd;double">8.2</Literal>
+        <Literal datatypeIRI="&xsd;double">9.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#releaseDate"/>
@@ -4222,7 +4225,7 @@ Cojocaru Stefan-George</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#imdbRating"/>
         <NamedIndividual IRI="#titanic"/>
-        <Literal datatypeIRI="&xsd;double">7.8</Literal>
+        <Literal datatypeIRI="&xsd;double">9.9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#releaseDate"/>
