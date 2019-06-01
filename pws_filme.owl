@@ -1023,10 +1023,16 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#japanese"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#jeffBridges"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#jonahHill"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#josephGordonLevitt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#josephKosinski"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#kateWinslet"/>
@@ -1068,6 +1074,9 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#miscellaneousAward"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#morometii"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#music"/>
     </Declaration>
     <Declaration>
@@ -1081,6 +1090,9 @@ Cojocaru Stefan-George</Literal>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#news"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oliviaWilde"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#oscarAward"/>
@@ -1116,6 +1128,9 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#sport"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#stereGulea"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#talkShow"/>
     </Declaration>
     <Declaration>
@@ -1140,7 +1155,13 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#tomHardy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#tronLegacy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#twentiethCenturyFox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#victorRebengiuc"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#war"/>
@@ -3155,11 +3176,19 @@ Cojocaru Stefan-George</Literal>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://dbpedia.org/ontology/actor"/>
+        <NamedIndividual IRI="#jeffBridges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#jonahHill"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://dbpedia.org/ontology/actor"/>
         <NamedIndividual IRI="#josephGordonLevitt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
+        <NamedIndividual IRI="#josephKosinski"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://dbpedia.org/ontology/actor"/>
@@ -3218,6 +3247,10 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#miscellaneousAward"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#morometii"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#musicalEntertainment"/>
         <NamedIndividual IRI="#music"/>
     </ClassAssertion>
@@ -3248,6 +3281,10 @@ Cojocaru Stefan-George</Literal>
     <ClassAssertion>
         <Class abbreviatedIRI="owl:Thing"/>
         <NamedIndividual IRI="#news"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
+        <NamedIndividual IRI="#oliviaWilde"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#award"/>
@@ -3318,6 +3355,10 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#sport"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://dbpedia.org/page/filmDirector"/>
+        <NamedIndividual IRI="#stereGulea"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class abbreviatedIRI="owl:Thing"/>
         <NamedIndividual IRI="#talkShow"/>
     </ClassAssertion>
@@ -3354,8 +3395,16 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#tomHardy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class abbreviatedIRI="www:movie"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#productionCompany"/>
         <NamedIndividual IRI="#twentiethCenturyFox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://dbpedia.org/ontology/actor"/>
+        <NamedIndividual IRI="#victorRebengiuc"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#bruteAction"/>
@@ -3457,9 +3506,14 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#AvengersEndgame"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
+        <NamedIndividual IRI="#Romania"/>
+        <NamedIndividual IRI="#morometii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isReleasingCountryOf"/>
         <NamedIndividual IRI="#Romania"/>
-        <NamedIndividual IRI="#theWolfOfWallstreet"/>
+        <NamedIndividual IRI="#morometii"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isActressIn"/>
@@ -3498,6 +3552,11 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#action"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
         <NamedIndividual IRI="#adventure"/>
         <NamedIndividual IRI="#theRevenant"/>
     </ObjectPropertyAssertion>
@@ -3515,6 +3574,11 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isAwardOf"/>
         <NamedIndividual IRI="#baftaFilmAward"/>
         <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardOf"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+        <NamedIndividual IRI="#tronLegacy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isAwardOf"/>
@@ -3575,6 +3639,11 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isGenreOf"/>
         <NamedIndividual IRI="#drama"/>
         <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGenreOf"/>
+        <NamedIndividual IRI="#drama"/>
+        <NamedIndividual IRI="#morometii"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isGenreOf"/>
@@ -3762,6 +3831,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#titanic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorIn"/>
+        <NamedIndividual IRI="#jeffBridges"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isMaleActorIn"/>
         <NamedIndividual IRI="#jonahHill"/>
         <NamedIndividual IRI="#theWolfOfWallstreet"/>
@@ -3770,6 +3844,11 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isMaleActorIn"/>
         <NamedIndividual IRI="#josephGordonLevitt"/>
         <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#josephKosinski"/>
+        <NamedIndividual IRI="#tronLegacy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isActressIn"/>
@@ -3832,6 +3911,21 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#romance"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <NamedIndividual IRI="#theodoreShapiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <NamedIndividual IRI="#oscarAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isActressIn"/>
         <NamedIndividual IRI="#melawNakehko"/>
         <NamedIndividual IRI="#theRevenant"/>
@@ -3840,6 +3934,46 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isMaleActorIn"/>
         <NamedIndividual IRI="#michaelCaine"/>
         <NamedIndividual IRI="#inception"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#victorRebengiuc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#stereGulea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFilmLocation"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#Romania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#Romania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorIn"/>
+        <NamedIndividual IRI="#oliviaWilde"/>
+        <NamedIndividual IRI="#tronLegacy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isAwardOf"/>
@@ -3865,6 +3999,11 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isGenreOf"/>
         <NamedIndividual IRI="#romance"/>
         <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#stereGulea"/>
+        <NamedIndividual IRI="#morometii"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongsToGenre"/>
@@ -4019,11 +4158,6 @@ Cojocaru Stefan-George</Literal>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasReleasingCountry"/>
         <NamedIndividual IRI="#theWolfOfWallstreet"/>
-        <NamedIndividual IRI="#Romania"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasReleasingCountry"/>
-        <NamedIndividual IRI="#theWolfOfWallstreet"/>
         <NamedIndividual IRI="#USA"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -4132,9 +4266,54 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#theRevenant"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToGenre"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#oliviaWilde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#jeffBridges"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#josephKosinski"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReleasingCountry"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAwardedWith"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTranslatedTo"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#french"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nominatedFor"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#produced"/>
         <NamedIndividual IRI="#twentiethCenturyFox"/>
         <NamedIndividual IRI="#titanic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorIn"/>
+        <NamedIndividual IRI="#victorRebengiuc"/>
+        <NamedIndividual IRI="#morometii"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isMaleActorIn"/>
@@ -4173,6 +4352,11 @@ Cojocaru Stefan-George</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#jeffBridges"/>
+        <Literal datatypeIRI="&xsd;string">Jeff Bridges</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#leondardoDiCaprio"/>
         <Literal datatypeIRI="&xsd;string">Leonardo DiCaprio</Literal>
     </DataPropertyAssertion>
@@ -4180,6 +4364,41 @@ Cojocaru Stefan-George</Literal>
         <DataProperty IRI="#imdbRating"/>
         <NamedIndividual IRI="#meBeforeYou"/>
         <Literal datatypeIRI="&xsd;double">7.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <Literal datatypeIRI="&xsd;int">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#meBeforeYou"/>
+        <Literal datatypeIRI="&xsd;string">Me Before You</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#morometii"/>
+        <Literal datatypeIRI="&xsd;string">Morometii</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#morometii"/>
+        <Literal datatypeIRI="&xsd;date">01.01.1987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#morometii"/>
+        <Literal datatypeIRI="&xsd;int">89</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#oliviaWilde"/>
+        <Literal datatypeIRI="&xsd;string">Olivia Wilde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#stereGulea"/>
+        <Literal datatypeIRI="&xsd;string">Stere Gulea</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#imdbRating"/>
@@ -4242,6 +4461,26 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#titanic"/>
         <Literal datatypeIRI="&xsd;string">Titanic</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#imdbRating"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <Literal datatypeIRI="&xsd;double">7.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <Literal datatypeIRI="&xsd;string">Tron Legacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runTime"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <Literal datatypeIRI="&xsd;int">110</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#victorRebengiuc"/>
+        <Literal datatypeIRI="&xsd;string">Victor Rebengiuc</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasActress"/>
         <ObjectProperty IRI="#hasActor"/>
@@ -4283,8 +4522,8 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isDirectorOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isFilmLocationOf"/>
         <ObjectProperty IRI="#hasFilmLocation"/>
+        <ObjectProperty IRI="#isFilmLocationOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isMaleActorIn"/>
