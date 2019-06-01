@@ -3419,6 +3419,16 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#sciFi"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#jamesCameron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMaleActor"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
         <NamedIndividual IRI="#RobertDowneyJr"/>
@@ -3427,6 +3437,11 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isAwardedWith"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
         <NamedIndividual IRI="#baftaFilmAward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <NamedIndividual IRI="#twentiethCenturyFox"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isFilmLocationOf"/>
@@ -4265,8 +4280,8 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isDirectorOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#hasFilmLocation"/>
         <ObjectProperty IRI="#isFilmLocationOf"/>
+        <ObjectProperty IRI="#hasFilmLocation"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isMaleActorIn"/>
