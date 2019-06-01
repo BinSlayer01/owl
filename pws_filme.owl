@@ -4063,6 +4063,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#tronLegacy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActressIn"/>
+        <NamedIndividual IRI="#oliviaWilde"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isAwardOf"/>
         <NamedIndividual IRI="#oscarAward"/>
         <NamedIndividual IRI="#titanic"/>
@@ -4644,8 +4649,8 @@ Cojocaru Stefan-George</Literal>
         <ObjectProperty IRI="#isDirectorOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#hasFilmLocation"/>
         <ObjectProperty IRI="#isFilmLocationOf"/>
+        <ObjectProperty IRI="#hasFilmLocation"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isMaleActorIn"/>
