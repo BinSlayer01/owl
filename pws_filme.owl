@@ -3956,6 +3956,11 @@ Cojocaru Stefan-George</Literal>
         <NamedIndividual IRI="#Romania"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMaleActor"/>
+        <NamedIndividual IRI="#morometii"/>
+        <NamedIndividual IRI="#victorRebengiuc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasReleasingCountry"/>
         <NamedIndividual IRI="#morometii"/>
         <NamedIndividual IRI="#Romania"/>
@@ -4317,6 +4322,11 @@ Cojocaru Stefan-George</Literal>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isMaleActorIn"/>
+        <NamedIndividual IRI="#victorRebengiuc"/>
+        <NamedIndividual IRI="#morometii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMaleActorIn"/>
         <NamedIndividual IRI="#willPoulter"/>
         <NamedIndividual IRI="#theRevenant"/>
     </ObjectPropertyAssertion>
@@ -4376,11 +4386,6 @@ Cojocaru Stefan-George</Literal>
         <Literal datatypeIRI="&xsd;string">Me Before You</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#name"/>
-        <NamedIndividual IRI="#morometii"/>
-        <Literal datatypeIRI="&xsd;string">Morometii</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#releaseDate"/>
         <NamedIndividual IRI="#morometii"/>
         <Literal datatypeIRI="&xsd;date">01.01.1987</Literal>
@@ -4389,6 +4394,11 @@ Cojocaru Stefan-George</Literal>
         <DataProperty IRI="#runTime"/>
         <NamedIndividual IRI="#morometii"/>
         <Literal datatypeIRI="&xsd;int">89</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#morometii"/>
+        <Literal datatypeIRI="&xsd;string">Morometii</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
@@ -4467,14 +4477,14 @@ Cojocaru Stefan-George</Literal>
         <Literal datatypeIRI="&xsd;double">7.9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#name"/>
-        <NamedIndividual IRI="#tronLegacy"/>
-        <Literal datatypeIRI="&xsd;string">Tron Legacy</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#runTime"/>
         <NamedIndividual IRI="#tronLegacy"/>
         <Literal datatypeIRI="&xsd;int">110</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#tronLegacy"/>
+        <Literal datatypeIRI="&xsd;string">Tron Legacy</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
